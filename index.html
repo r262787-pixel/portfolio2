@@ -1,18 +1,394 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projec 1</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pavithra R — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
-    <h1>Multimedia blog Sponsered by TAP ACADEMY &trade;</h1>
-    <h2>My favouritte Songs</h2>
-    <h3>SONG 1 😍</h3>
-    <audio src="https://pixabay.com/users/tunetank-50201703/" controls muted autoplay></audio>
-    <h3>SONG 2😍</h3>
-    <audio src=""></audio>
 
-    
+  <!-- ─── NAVBAR ─────────────────────────────────────────── -->
+  <nav id="navbar">
+    <div class="nav-logo">PAVIHTRA R<span class="dot"></span></div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ─── HERO ──────────────────────────────────────────────────── -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <div class="hero-left">
+        <p class="hero-tag">Software Engineer &amp; Developer</p>
+        <h1 class="hero-name">Pavithra<br/><em>R.</em></h1>
+        <p class="hero-desc">
+          Computer Science graduate passionate about building elegant, impactful
+          software — from ML-powered predictions to full-stack web applications.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#contact" class="btn-outline">Contact Me</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/pavithra-r-0268073aa" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://wa.me/919845492796" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="mailto:r262787@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="profile-ring">
+          <div class="profile-img-wrap">
+            <img src="profile.jpg" alt="Pavithra R" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
+            <div class="profile-placeholder">
+              <span>P</span>
+            </div>
+          </div>
+          
+          <div class="ring-label bottom">B.E CSE CGPA 9.17</div>
+        </div>
+        
+       
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─────────────────────────────────────────────────── -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="section-label">About</div>
+      <h2 class="section-title">Who Am I?</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Hi! I'm <strong>Pavithra R</strong>, a Computer Science and Engineering graduate
+            from Government Engineering College Kushalnagara, Karnataka, with a stellar CGPA of
+            <strong>9.16</strong>.
+          </p>
+          <p>
+            I'm a full-stack developer with a strong foundation in Java, Python, and
+            modern web technologies. I thrive at the intersection of problem-solving and
+            creativity — whether I'm designing ML-powered diagnostics tools or building
+            responsive food-delivery platforms.
+          </p>
+          <p>
+            Currently completed a <strong>Software Development Internship at TAP Academy</strong>,
+            where I developed and deployed full-stack applications using Java, MySQL, HTML, CSS
+            and JavaScript.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight"><i class="fas fa-map-marker-alt"></i> Kodagu, Karnataka, India</div>
+            <div class="highlight"><i class="fas fa-phone"></i> +91 9845492796</div>
+            <div class="highlight"><i class="fas fa-envelope"></i> r262787@gmail.com</div>
+            <div class="highlight"><i class="fas fa-graduation-cap"></i> B.E Computer Science &amp; Engg.</div>
+          </div>
+        </div>
+        <div class="about-image-side">
+          <div class="about-img-frame">
+            <img src="profile.jpg" alt="Pavithra R" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
+            <div class="about-placeholder">PR</div>
+          </div>
+          <div class="about-badge">
+            <i class="fas fa-code"></i>
+            <span>Full-Stack Developer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── EDUCATION ─────────────────────────────────────────────── -->
+  <section id="education">
+    <div class="section-inner">
+      <div class="section-label">Education</div>
+      <h2 class="section-title">Academic Journey</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="tl-year">2022 – 2026</div>
+            <h3 class="tl-degree">B.E in Computer Science &amp; Engineering</h3>
+            <p class="tl-school"><i class="fas fa-university"></i> Government Engineering College Kushalnagara</p>
+            <p class="tl-location"><i class="fas fa-map-marker-alt"></i> Kodagu, India</p>
+            <div class="tl-score">CGPA <strong>9.17</strong></div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="tl-year">2020 – 2022</div>
+            <h3 class="tl-degree">12th / PUC</h3>
+            <p class="tl-school"><i class="fas fa-school"></i> Government PU College, Kudige</p>
+            <p class="tl-location"><i class="fas fa-map-marker-alt"></i> Kodagu, India</p>
+            <div class="tl-score"><strong>91.5%</strong></div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="tl-year">2017 – 2020</div>
+            <h3 class="tl-degree">10th / SSLC</h3>
+            <p class="tl-school"><i class="fas fa-school"></i> Government High School, Kudumangalore</p>
+            <p class="tl-location"><i class="fas fa-map-marker-alt"></i> Kodagu, India</p>
+            <div class="tl-score"><strong>88%</strong></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ────────────────────────────────────────────────── -->
+  <section id="skills">
+    <div class="section-inner">
+      <div class="section-label">Skills</div>
+      <h2 class="section-title">What I Work With</h2>
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <h4 class="skill-group-title"><i class="fas fa-code"></i> Programming Languages</h4>
+          <div class="skill-pills">
+            <span class="pill">Java</span>
+            <span class="pill">Python</span>
+            <span class="pill">C</span>
+            <span class="pill">C++</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4 class="skill-group-title"><i class="fas fa-desktop"></i> Frontend</h4>
+          <div class="skill-pills">
+            <span class="pill">HTML5</span>
+            <span class="pill">CSS3</span>
+            <span class="pill">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4 class="skill-group-title"><i class="fas fa-database"></i> Databases</h4>
+          <div class="skill-pills">
+            <span class="pill">MySQL</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4 class="skill-group-title"><i class="fas fa-brain"></i> Core Subjects</h4>
+          <div class="skill-pills">
+            <span class="pill">OOP</span>
+            <span class="pill">DSA</span>
+            <span class="pill">Operating Systems</span>
+            <span class="pill">Computer Networks</span>
+            <span class="pill">Machine Learning</span>
+            <span class="pill">AI</span>
+            <span class="pill">Robotics</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4 class="skill-group-title"><i class="fas fa-tools"></i> Tools &amp; Frameworks</h4>
+          <div class="skill-pills">
+            <span class="pill">Apache Tomcat</span>
+            <span class="pill">MVC Architecture</span>
+            <span class="pill">Voting Classifier</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ──────────────────────────────────────────────── -->
+  <section id="projects">
+    <div class="section-inner">
+      <div class="section-label">Projects</div>
+      <h2 class="section-title">Things I've Built</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-brain"></i></div>
+            <div class="project-meta">
+              <span class="project-date">May 2025 – Jan 2026</span>
+            </div>
+          </div>
+          <h3 class="project-title">Parkinson's Disease Prediction System</h3>
+          <p class="project-desc">
+            An ML-powered diagnostic tool that allows doctors and users to input patient data and receive
+            Parkinson's disease predictions. Built a user-friendly frontend interface and integrated it with
+            a Voting Classifier machine learning model.
+          </p>
+          <div class="project-bullets">
+            <li>Built responsive UI for patient data input and result display</li>
+            <li>Integrated frontend with ML model for real-time predictions</li>
+            <li>Improved accessibility and usability for medical professionals</li>
+          </div>
+          <div class="project-tech">
+            <span>Python</span><span>Machine Learning</span><span>HTML</span><span>CSS</span><span>Voting Classifier</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-utensils"></i></div>
+            <div class="project-meta">
+              <span class="project-date">Jan 2026 – Apr 2026</span>
+            </div>
+          </div>
+          <h3 class="project-title">CraveRush Food Delivery Application</h3>
+          <p class="project-desc">
+            A full-stack food delivery web application inspired by Swiggy and Zomato, featuring responsive
+            restaurant browsing, food ordering, and a backend deployed on Apache Tomcat using MVC architecture.
+          </p>
+          <div class="project-bullets">
+            <li>Designed responsive frontend for restaurant browsing &amp; ordering</li>
+            <li>Implemented backend using Java with MVC pattern</li>
+            <li>Deployed on Apache Tomcat with clean separation of concerns</li>
+          </div>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Java</span><span>Apache Tomcat</span><span>MVC</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── INTERNSHIP ────────────────────────────────────────────── -->
+  <section id="internship">
+    <div class="section-inner">
+      <div class="section-label">Experience</div>
+      <h2 class="section-title">Work Experience</h2>
+      <div class="internship-card">
+        <div class="intern-logo"><i class="fas fa-laptop-code"></i></div>
+        <div class="intern-content">
+          <h3>Software Development Intern</h3>
+          <p class="intern-company">TAP Academy</p>
+          <p class="intern-duration"><i class="fas fa-calendar-alt"></i> Jan 2026 – May 2026</p>
+          <ul class="intern-points">
+            <li>Developed and deployed full-stack applications using Java and MySQL.</li>
+            <li>Implemented frontend interface using HTML, CSS and JavaScript.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ───────────────────────────────────────────────── -->
+  <section id="contact">
+    <div class="section-inner">
+      <div class="section-label">Contact</div>
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-subtitle">
+        Have a project in mind or want to connect? I'd love to hear from you!
+      </p>
+
+      <div class="contact-grid">
+        <!-- Info & Socials -->
+        <div class="contact-info">
+          <h3>Let's Connect</h3>
+          <div class="contact-item">
+            <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <p class="ci-label">Email</p>
+              <a href="mailto:r262787@gmail.com">r262787@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <p class="ci-label">Phone / WhatsApp</p>
+              <a href="https://wa.me/919845492796" target="_blank">+91 9845492796</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <p class="ci-label">Location</p>
+              <span>Kodagu, Karnataka, India</span>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/pavithra-r-0268073aa" target="_blank" class="social-btn linkedin">
+              <i class="fab fa-linkedin-in"></i> LinkedIn
+            </a>
+            <a href="https://wa.me/919845492796" target="_blank" class="social-btn whatsapp">
+              <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+            <a href="https://instagram.com/pavithra_r567" target="_blank" class="social-btn instagram">
+              <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="mailto:r262787@gmail.com" class="social-btn email">
+              <i class="fas fa-envelope"></i> Email
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrap">
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="John Doe" required/>
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" placeholder="john@example.com" required/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" placeholder="Project collaboration, Job opportunity..."/>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary full-width">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <p class="form-success" id="formSuccess">✓ Message sent successfully! I'll get back to you soon.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ────────────────────────────────────────────────── -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">PR<span class="dot">.</span></div>
+      <p class="footer-copy">© 2026 Pavithra R. Crafted with <i class="fas fa-heart"></i> in Kodagu, India.</p>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/pavithra-r-0268073aa" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/919845492796" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:r262787@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#hero" class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+  <script src="main.js"></script>
 </body>
 </html>
